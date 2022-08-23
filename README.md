@@ -5,7 +5,7 @@
 <p>
   <ul>
     <li>URL do desafio no <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-"/>frontend Mentor</a></li>
-    <li>URL da solução do desafio no <a href="https://joaoover.github.io/Componente-de-classificacao-interativa"/>Githubpages</a></li>
+    <li>URL da solução do desafio no <a href="#"/>Githubpages</a></li>
   </ul>
 </p>
 <p>Design original</p>
