@@ -11,10 +11,10 @@ body {
     font-size: 15px;
 }
 
-main {
+#container {
     margin: 90px auto;
-    width: 840px;
-    height: 440px;
+    width: 870px;
+    height: 470px;
     border-radius: 30px;
     display: flex;
 }
@@ -26,15 +26,16 @@ main {
     background: hsl(31, 77%, 52%);
 }
 
-.card1 > p {
+ p {
     font-family: 'Lexend Deca', sans-serif;
     padding-top: 30px;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
-.card1 > h1 {
+ h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    font-size: 2.2em;
     padding-top: 20px;
     color: hsl(0, 0%, 95%);
 }
@@ -45,18 +46,6 @@ main {
     background-color: hsl(184, 100%, 22%)
 }
 
-.card2 > p {
-    font-family: 'Lexend Deca', sans-serif;
-    padding-top: 30px;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-.card2 > h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    padding-top: 20px;
-    color: hsl(0, 0%, 95%);
-}
-
 .card3 {
     width: 500px;
     padding: 30px;
@@ -64,21 +53,10 @@ main {
     background-color: hsl(179, 100%, 13%);
 }
 
-.card3 > p {
-    font-family: 'Lexend Deca', sans-serif;
-    padding-top: 30px;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-.card3 > h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    padding-top: 20px;
-    color: hsl(0, 0%, 95%);
-}
-
-.button {
+.button1 {
     font-family: 'Lexend Deca', sans-serif;
     background: white;
+    color: hsl(31, 77%, 52%);
     border-radius: 20px;
     margin-top: 95px;
     width: 100px;
@@ -86,7 +64,29 @@ main {
     text-align: center;
 }
 
-.button:hover {
+.button2 {
+    font-family: 'Lexend Deca', sans-serif;
+    background: white;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    margin-top: 95px;
+    width: 100px;
+    padding: 13px;
+    text-align: center;
+}
+
+.button3 {
+    font-family: 'Lexend Deca', sans-serif;
+    background: white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    margin-top: 95px;
+    width: 100px;
+    padding: 13px;
+    text-align: center;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
     border: 1px solid white;
     color: hsl(0, 0%, 95%);
     background: none;
